@@ -58,9 +58,6 @@ export default function Navbar() {
                 alt="Livenni Logo"
                 className="w-40 h-40 object-contain transition-all duration-500"
               />
-              <span className={`font-serif font-semibold text-xl tracking-wide transition-colors ${scrolled ? 'text-primary' : 'text-white'}`}>
-                
-              </span>
             </a>
 
             <div className="hidden lg:flex items-center gap-8">
@@ -115,14 +112,11 @@ export default function Navbar() {
               className="fixed top-0 right-0 h-full w-80 bg-white z-[70] shadow-2xl flex flex-col"
             >
               <div className="flex items-center justify-between p-6 border-b border-gray-100">
-                <div className="flex items-center gap-2">
-                  <img
-                    src="/images/logo-preto.png"
-                    alt="Livenni Logo"
-                    className="w-9 h-9 object-contain"
-                  />
-                  <span className="font-serif font-semibold text-xl text-primary">Livenni</span>
-                </div>
+                <img
+                  src="/images/logo-preto.png"
+                  alt="Livenni Logo"
+                  className="w-9 h-9 object-contain"
+                />
                 <button
                   onClick={() => setMenuOpen(false)}
                   className="p-2 text-gray-500 hover:text-primary rounded-lg hover:bg-gray-100 transition-colors"
