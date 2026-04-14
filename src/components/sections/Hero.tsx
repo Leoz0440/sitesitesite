@@ -100,7 +100,7 @@ export default function Hero() {
         </motion.div>
       </motion.a>
 
-      <div className="absolute bottom-20 left-0 right-0 z-10 px-6">
+      <div className="relative z-20 px-6 py-8 -mb-16">
         <StatsBar />
       </div>
     </section>
