@@ -1,3 +1,4 @@
+// FIXED: Changed casing to match NavBar.tsx
 import Navbar from './components/layout/NavBar';
 import Footer from './components/layout/Footer';
 import Hero from './components/sections/Hero';
