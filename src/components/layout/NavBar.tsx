@@ -115,7 +115,7 @@ export default function Navbar() {
                 <img
                   src="/images/logo-preto.png"
                   alt="Livenni Logo"
-                  className="w-16 h-16 object-contain"
+                  className="w-32 h-32 object-contain"
                 />
                 <button
                   onClick={() => setMenuOpen(false)}
