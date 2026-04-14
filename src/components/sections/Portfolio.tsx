@@ -5,33 +5,33 @@ const projects = [
   {
     title: 'Cozinha Moderna',
     category: 'Cozinhas',
-    image: '/public/images/cozinha2.jpg',
+    image: '/images/cozinha2.jpg',
     large: true,
   },
   {
     title: 'Banheiro Luxury',
     category: 'Banheiros',
-    image: '/public/images/banheiro3.jpeg',
+    image: '/images/banheiro3.jpeg',
   },
   {
     title: 'Sala Corporativa',
     category: 'Corporativo',
-    image: '/public/images/salareuniao1.jpg',
+    image: '/images/salareuniao1.jpg',
   },
   {
     title: 'Closet Premium',
     category: 'Closets',
-    image: '/public/images/closet1.jpg',
+    image: '/images/closet1.jpg',
   },
   {
     title: 'Home Office',
     category: 'Escritório',
-    image: '/public/images/home1.jpg',
+    image: '/images/home1.jpg',
   },
   {
     title: 'Living Contemporâneo',
     category: 'Salas',
-    image: '/public/images/living1.jpeg',
+    image: '/images/living1.jpeg',
   },
 ];
 
