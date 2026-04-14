@@ -5,7 +5,7 @@ const projects = [
   {
     title: 'Cozinha Moderna',
     category: 'Cozinhas',
-    image: '/images/cozinha2.jpg',
+    image: '/images/cozinha2.JPG',
     large: true,
   },
   {
@@ -26,7 +26,7 @@ const projects = [
   {
     title: 'Home Office',
     category: 'Escritório',
-    image: '/images/home1.jpg',
+    image: '/images/home1.JPG',
   },
   {
     title: 'Living Contemporâneo',
