@@ -1,7 +1,7 @@
 import { Phone, Mail, MapPin, Instagram, Facebook } from 'lucide-react';
 
 const navLinks = ['Home', 'Portfólio', 'Serviços', 'Sobre'];
-const services = ['Móveis Planejados', 'Cozinhas Completas', 'Corporativos', 'Restauração'];
+const services = ['Móveis Planejados', 'Cozinhas Completas', 'Corporativos'];
 
 const scrollToSection = (id: string) => {
   const el = document.getElementById(id);
@@ -32,7 +32,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/livenni.movelaria"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 bg-white/5 hover:bg-gold/10 rounded-lg flex items-center justify-center text-gray-500 hover:text-gold transition-all duration-300 hover:scale-110"
@@ -41,13 +41,9 @@ export default function Footer() {
                 <Instagram size={16} />
               </a>
               <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-9 h-9 bg-white/5 hover:bg-gold/10 rounded-lg flex items-center justify-center text-gray-500 hover:text-gold transition-all duration-300 hover:scale-110"
-                aria-label="Facebook"
+                
               >
-                <Facebook size={16} />
+                
               </a>
             </div>
           </div>
