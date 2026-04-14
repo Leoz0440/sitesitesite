@@ -1,25 +1,25 @@
 import { motion } from 'framer-motion';
-import { Sofa, ChefHat, Building2, Wrench } from 'lucide-react';
+import { Building2, Store, Home } from 'lucide-react';
 import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 
 const services = [
   {
-    icon: Sofa,
-    title: 'Móveis Planejados',
-    description: 'Soluções personalizadas para cada ambiente da sua casa, do quarto à sala de estar.',
-    detail: 'Projeto 3D incluso',
-  },
-  {
-    icon: ChefHat,
-    title: 'Cozinhas Completas',
-    description: 'Design moderno e funcionalidade para transformar sua cozinha em um espaço de desejo.',
-    detail: 'Marcenaria artesanal',
-  },
-  {
     icon: Building2,
     title: 'Móveis Corporativos',
-    description: 'Ambientes profissionais elegantes que refletem a identidade da sua empresa.',
+    description: 'Ambientes profissionais que unem sofisticação e produtividade, projetados para valorizar a identidade da sua empresa.',
     detail: 'Projetos sob medida',
+  },
+  {
+    icon: Store,
+    title: 'Móveis Comerciais',
+    description: 'Soluções funcionais e atrativas para lojas, restaurantes e espaços comerciais que encantam seus clientes.',
+    detail: 'Design estratégico',
+  },
+  {
+    icon: Home,
+    title: 'Móveis Residenciais',
+    description: 'Peças exclusivas que transformam cada cômodo da sua casa em um espaço de conforto e personalidade.',
+    detail: 'Projeto 3D incluso',
     horizontalLayout: true,
   },
 ];
