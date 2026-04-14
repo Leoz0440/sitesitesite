@@ -95,7 +95,7 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.8 }}
-              className="shimmer-btn mt-10 inline-flex items-center gap-2 bg-gold text-white font-semibold px-8 py-4 rounded-xl hover:bg-gold-dark transition-all duration-300 shadow-lg shadow-gold/20 w-fit"
+              className="shimmer-btn mt-10 inline-flex items-center gap-2 bg-gold text-white font-semibold px-8 py-4 rounded-xl hover:bg-gold-dark transition-all duration-300 shadow-lg shadow-gold/20 w-fit hidden"
             >
               Conheça Nossa História →
             </motion.a>

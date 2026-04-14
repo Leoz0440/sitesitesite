@@ -87,7 +87,7 @@ export default function Services() {
               const el = document.querySelector('#contato');
               if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' });
             }}
-            className="shimmer-btn inline-flex items-center gap-2 bg-primary text-white font-semibold px-8 py-4 rounded-xl hover:bg-primary/90 transition-all duration-300 shadow-lg"
+            className="shimmer-btn inline-flex items-center gap-2 bg-primary text-white font-semibold px-8 py-4 rounded-xl hover:bg-primary/90 transition-all duration-300 shadow-lg hidden"
           >
             Ver Todos os Serviços →
           </a>

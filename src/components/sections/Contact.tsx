@@ -47,9 +47,9 @@ export default function Contact() {
 
             <div className="space-y-5 mb-8">
               {[
-                { icon: Phone, label: 'Telefone', value: '(11) 98765-4321', href: 'tel:+5511987654321' },
+                { icon: Phone, label: 'Telefone', value: '(44) 98823-5683', href: 'tel:+5544988235683' },
                 { icon: Mail, label: 'Email', value: 'contato@livenni.com.br', href: 'mailto:contato@livenni.com.br' },
-                { icon: MapPin, label: 'Endereço', value: 'Rua das Madeiras, 1234 — São Paulo, SP', href: '#' },
+                { icon: MapPin, label: 'Endereço', value: 'Rua Pioneiro José Antônio Píres, 270 — Maringá, PR', href: '#' },
               ].map(item => {
                 const Icon = item.icon;
                 return (

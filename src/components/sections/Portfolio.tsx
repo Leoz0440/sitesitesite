@@ -102,7 +102,7 @@ export default function Portfolio() {
               const el = document.querySelector('#contato');
               if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' });
             }}
-            className="inline-flex items-center gap-2 border-2 border-primary text-primary font-semibold px-8 py-4 rounded-xl hover:bg-primary hover:text-white transition-all duration-300"
+            className="inline-flex items-center gap-2 border-2 border-primary text-primary font-semibold px-8 py-4 rounded-xl hover:bg-primary hover:text-white transition-all duration-300 hidden"
           >
             Ver Portfólio Completo →
           </a>
