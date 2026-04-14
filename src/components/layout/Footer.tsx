@@ -124,7 +124,7 @@ export default function Footer() {
             © 2026 Livenni Movelaria. Todos os direitos reservados.
           </p>
           <p className="text-xs text-gray-700">
-            Móveis Planejados · Maringpa, PR
+            Móveis Planejados · Maringá, PR
           </p>
         </div>
       </div>
