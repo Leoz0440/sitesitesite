@@ -3,7 +3,6 @@ import { Check } from 'lucide-react';
 import { useScrollAnimationX } from '../../hooks/useScrollAnimation';
 
 const differentials = [
-  'Madeira de reflorestamento certificada',
   '30+ anos de experiência moveleira',
   'Projeto 3D antes da execução',
   'Garantia de 5 anos',

@@ -18,7 +18,7 @@ const steps = [
     number: '03',
     icon: Hammer,
     title: 'Fabricação',
-    description: 'Produção artesanal premium com madeiras selecionadas e acabamentos de alto padrão.',
+    description: 'Produção industrial com madeiras selecionadas e acabamentos de alto padrão.',
   },
   {
     number: '04',
